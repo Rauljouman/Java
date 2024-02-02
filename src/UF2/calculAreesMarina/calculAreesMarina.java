@@ -1,3 +1,5 @@
+package UF2.calculAreesMarina;
+
 import java.util.Scanner;
 
 public class calculAreesMarina {

@@ -1,3 +1,5 @@
+package UF2.NotaMitjanaMaxMinFuncions;
+
 import java.util.Scanner;
 public class NotaMitajanaMaxMinFuncions {
 

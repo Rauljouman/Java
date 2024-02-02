@@ -1,5 +1,6 @@
+package UF2.PrediccioPersona;
 
-    import java.util.Scanner;
+import java.util.Scanner;
     public class PrediccioPersona {
 
         private Scanner sc = new Scanner(System.in);
