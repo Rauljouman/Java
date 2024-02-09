@@ -32,6 +32,7 @@ public class EscullOpcio {
             fi = true;
         } else {
             System.out.println("Error, escull una figura!");
+            area = -1;
         }
         return area;
     }

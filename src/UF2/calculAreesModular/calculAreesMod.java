@@ -18,7 +18,9 @@ public class calculAreesMod {
             mostrarMenu();
             EscullOpcio opcioFigura = new EscullOpcio();
             area = opcioFigura.triaOpcio();
-            veureResultat(area);
+            if (area != -1) {
+                veureResultat(area);
+            }
         }
     }
 

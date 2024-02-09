@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0079de50-7108-4cb0-b9ec-5468a902bb99" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/UF2/RegistreNotes/CalculsArraysReals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/RegistreNotes/RegistreNotes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/RegistreNotes/RegistreNotesMod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/calculAreesModular/CercleOperacio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/calculAreesModular/EscullOpcio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/calculAreesModular/QuadratOperacio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/calculAreesModular/RectangleOperacio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/calculAreesModular/RombeOperacio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/calculAreesModular/TrapeziOperacio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/calculAreesModular/TriangleOperacio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/calculAreesModular/calculAreesMod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UF2/PrediccioPersona/PrediccioPersona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF2/calculAreesModular/EscullOpcio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UF2/calculAreesModular/EscullOpcio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF2/calculAreesModular/calculAreesMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UF2/calculAreesModular/calculAreesMod.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,27 +35,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.NotaMitajanaMaxMinFuncions.executor": "Run",
-    "Application.PrediccioPersona.executor": "Run",
-    "Application.RegistreNotesMod.executor": "Run",
-    "Application.calculAreesMarina.executor": "Run",
-    "Application.calculAreesMod.executor": "Run",
-    "Application.calculAreesModular.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/AngieRaul/IdeaProjects/Java/src/UF2/calculAreesModular",
-    "onboarding.tips.debug.path": "C:/Users/AngieRaul/IdeaProjects/Java/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.NotaMitajanaMaxMinFuncions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrediccioPersona.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RegistreNotesMod.executor&quot;: &quot;Run&quot;,
+    &quot;Application.calculAreesMarina.executor&quot;: &quot;Run&quot;,
+    &quot;Application.calculAreesMod.executor&quot;: &quot;Run&quot;,
+    &quot;Application.calculAreesModular.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/AngieRaul/IdeaProjects/Java/src/UF2/calculAreesModular&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/AngieRaul/IdeaProjects/Java/src/Main.java&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "AspectJ"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;AspectJ&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\AngieRaul\IdeaProjects\Java\src\UF2\calculAreesModular" />
@@ -93,7 +83,20 @@
       <option name="presentableId" value="Default" />
       <updated>1706809373124</updated>
     </task>
+    <task id="LOCAL-00001" summary="prog mod: registre notes i càlcul d'àrees">
+      <option name="closed" value="true" />
+      <created>1707162076411</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707162076411</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="prog mod: registre notes i càlcul d'àrees" />
+    <option name="LAST_COMMIT_MESSAGE" value="prog mod: registre notes i càlcul d'àrees" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
