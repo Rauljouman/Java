@@ -1,4 +1,4 @@
-/*
+
 package UF2.calculAreesModular;
 
 import java.util.Scanner;
@@ -17,7 +17,8 @@ public class calculAreesModular {
     public void inici() {
         while (!fi) {
             mostrarMenu();
-            triaOpcio();
+            EscullOpcio TriaOpcio = new EscullOpcio();
+            EscullOpcio.triaOpcio();
         }
     }
 
@@ -26,7 +27,8 @@ public class calculAreesModular {
         System.out.println("Tens les següents opcions: triangle, quadrat, rectangle, trapezi, rombe, paralelogram o cercle.");
         System.out.println("Per acabar el programa: FI");
     }
-
+}
+/*
     public void triaOpcio() {
         String figura = sc.nextLine();
         if (figura.equalsIgnoreCase("triangle")) {
@@ -51,12 +53,12 @@ public class calculAreesModular {
         }
         veureResultat();
     }
-
+/*
 
     public void veureResultat() {
         System.out.println("L area de tu figura " + " es " + area);
     }
-
+    /*
     //cas en que la figura = "triangle"
     public double triangle() {
         double b = 23.0;

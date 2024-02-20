@@ -1,9 +1,9 @@
 package UF2.calculAreesModular;
 import java.util.Scanner;
 public class EscullOpcio {
-    Scanner sc = new Scanner (System.in);
-    double area = 0;
-    public double triaOpcio() {
+    static Scanner sc = new Scanner (System.in);
+    static double area = 0;
+    public static double triaOpcio() {
         String figura = sc.nextLine();
         boolean fi = false;
         if (figura.equalsIgnoreCase("triangle")) {

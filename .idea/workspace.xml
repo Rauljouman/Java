@@ -5,9 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0079de50-7108-4cb0-b9ec-5468a902bb99" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/UF2/CercaValors/CercaValors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UF2/CercaValors/CercaValorsMod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UF2/EstudiantICurs/Curs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UF2/EstudiantICurs/Estudiant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UF2/EstudiantICurs/ProgramaPrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UF4/Agenda/Cita.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UF4/Agenda/Pagina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UF4/CreacioObj/Cercle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UF4/CreacioObj/MainRectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UF4/CreacioObj/Quadrat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UF4/CreacioObj/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UF4/CreacioObj/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UF2/calculAreesModular/EscullOpcio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UF2/calculAreesModular/EscullOpcio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UF2/calculAreesModular/calculAreesMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UF2/calculAreesModular/calculAreesMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF2/calculAreesModular/calculAreesModular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UF2/calculAreesModular/calculAreesModular.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,29 +47,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.NotaMitajanaMaxMinFuncions.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrediccioPersona.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RegistreNotesMod.executor&quot;: &quot;Run&quot;,
-    &quot;Application.calculAreesMarina.executor&quot;: &quot;Run&quot;,
-    &quot;Application.calculAreesMod.executor&quot;: &quot;Run&quot;,
-    &quot;Application.calculAreesModular.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/AngieRaul/IdeaProjects/Java/src/UF2/calculAreesModular&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/AngieRaul/IdeaProjects/Java/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CercaValors.executor": "Run",
+    "Application.EstudiantICurs.java.executor": "Run",
+    "Application.MainRectangle.executor": "Run",
+    "Application.NotaMitajanaMaxMinFuncions.executor": "Run",
+    "Application.PrediccioPersona.executor": "Run",
+    "Application.ProgramaPrincipal.executor": "Run",
+    "Application.RegistreNotesMod.executor": "Run",
+    "Application.calculAreesMarina.executor": "Run",
+    "Application.calculAreesMod.executor": "Run",
+    "Application.calculAreesModular.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/AngieRaul/IdeaProjects/Java/src/UF2/EstudiantICurs",
+    "onboarding.tips.debug.path": "C:/Users/AngieRaul/IdeaProjects/Java/src/Main.java"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;AspectJ&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "AspectJ"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\AngieRaul\IdeaProjects\Java\src\UF2\CercaValors" />
       <recent name="C:\Users\AngieRaul\IdeaProjects\Java\src\UF2\calculAreesModular" />
       <recent name="C:\Users\AngieRaul\IdeaProjects\Java\src\UF2" />
       <recent name="C:\Users\AngieRaul\IdeaProjects\Java\src\UF2\RegistreNotes" />
@@ -66,6 +83,16 @@
       <recent name="UF2" />
       <recent name="UF2.calculAreesMarina.calculAreesMarina" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="EstudiantICurs.java" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="UF2.EstudiantICurs.ProgramaPrincipal" />
+      <module name="Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/UF2/EstudiantICurs" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
