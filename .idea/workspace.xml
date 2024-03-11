@@ -5,21 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0079de50-7108-4cb0-b9ec-5468a902bb99" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/UF2/CercaValors/CercaValors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/CercaValors/CercaValorsMod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/EstudiantICurs/Curs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/EstudiantICurs/Estudiant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF2/EstudiantICurs/ProgramaPrincipal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF4/Agenda/Cita.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF4/Agenda/Pagina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF4/CreacioObj/Cercle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF4/CreacioObj/MainRectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF4/CreacioObj/Quadrat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF4/CreacioObj/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UF4/CreacioObj/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MP02/UF4/Customers/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MP02/UF4/Customers/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MP02/UF4/Customers/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MP02/UF4/Customers/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MP02/UF4/Customers/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MP02/UF4/Empresa/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MP02/UF4/Empresa/Encarrec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MP02/UF4/Empresa/Peticio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MP02/UF4/Empresa/Sucursal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MP02/UF4/Empresa/TipusProducte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MP02/UF4/Empresa/Transportista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MP02/UF4/Empresa/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MP02/UF4/HerenciaSimple/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MP02/UF4/HerenciaSimple/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MP02/UF4/HerenciaSimple/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MP02/UF4/HerenciaSimpleEntregar/Estudiant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MP02/UF4/HerenciaSimpleEntregar/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MP02/UF4/HerenciaSimpleEntregar/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MP02/UF4/Persona/Persona.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UF2/calculAreesModular/EscullOpcio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UF2/calculAreesModular/EscullOpcio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UF2/calculAreesModular/calculAreesModular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UF2/calculAreesModular/calculAreesModular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JAVA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF2/CercaValors/CercaValors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MP02/UF2/CercaValors/CercaValors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF2/CercaValors/CercaValorsMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MP02/UF2/CercaValors/CercaValorsMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF2/EstudiantICurs/Curs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MP02/UF2/EstudiantICurs/Curs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF2/EstudiantICurs/Estudiant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MP02/UF2/EstudiantICurs/Estudiant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF2/EstudiantICurs/ProgramaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MP02/UF2/EstudiantICurs/ProgramaPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF2/NotaMitjanaMaxMinFuncions/NotaMitajanaMaxMinFuncions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MP02/UF2/NotaMitjanaMaxMinFuncions/NotaMitajanaMaxMinFuncions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF2/RegistreNotes/CalculsArraysReals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MP02/UF2/RegistreNotes/CalculsArraysReals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF2/RegistreNotes/RegistreNotes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MP02/UF2/RegistreNotes/RegistreNotes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF2/RegistreNotes/RegistreNotesMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MP02/UF2/RegistreNotes/RegistreNotesMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF2/calculAreesMarina/calculAreesMarina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MP02/UF2/calculAreesMarina/calculAreesMarina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF2/calculAreesModular/CercleOperacio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MP02/UF2/calculAreesModular/CercleOperacio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF2/calculAreesModular/EscullOpcio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MP02/UF2/calculAreesModular/EscullOpcio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF2/calculAreesModular/ParalelogramOperacio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MP02/UF2/calculAreesModular/ParalelogramOperacio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF2/calculAreesModular/QuadratOperacio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MP02/UF2/calculAreesModular/QuadratOperacio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF2/calculAreesModular/RectangleOperacio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MP02/UF2/calculAreesModular/RectangleOperacio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF2/calculAreesModular/RombeOperacio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MP02/UF2/calculAreesModular/RombeOperacio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF2/calculAreesModular/TrapeziOperacio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MP02/UF2/calculAreesModular/TrapeziOperacio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF2/calculAreesModular/TriangleOperacio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MP02/UF2/calculAreesModular/TriangleOperacio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF2/calculAreesModular/calculAreesMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MP02/UF2/calculAreesModular/calculAreesMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF2/calculAreesModular/calculAreesModular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MP02/UF2/calculAreesModular/calculAreesModular.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF4/Agenda/AgendaMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MP02/UF4/Agenda/AgendaMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF4/Agenda/Cita.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MP02/UF4/Agenda/Cita.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF4/Agenda/Pagina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MP02/UF4/Agenda/Pagina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF4/CreacioObj/Cercle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MP02/UF4/CreacioObj/Cercle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF4/CreacioObj/MainRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MP02/UF4/CreacioObj/MainRectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF4/CreacioObj/Quadrat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MP02/UF4/CreacioObj/Quadrat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF4/CreacioObj/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MP02/UF4/CreacioObj/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF4/CreacioObj/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MP02/UF4/CreacioObj/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,20 +85,29 @@
   "keyToString": {
     "Application.CercaValors.executor": "Run",
     "Application.EstudiantICurs.java.executor": "Run",
+    "Application.ExempleUsosStatic.executor": "Run",
+    "Application.MP04.Main.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.MainRectangle.executor": "Run",
     "Application.NotaMitajanaMaxMinFuncions.executor": "Run",
     "Application.PrediccioPersona.executor": "Run",
     "Application.ProgramaPrincipal.executor": "Run",
+    "Application.PruebaExam.executor": "Run",
     "Application.RegistreNotesMod.executor": "Run",
     "Application.calculAreesMarina.executor": "Run",
     "Application.calculAreesMod.executor": "Run",
     "Application.calculAreesModular.executor": "Run",
+    "Application.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/AngieRaul/IdeaProjects/Java/src/UF2/EstudiantICurs",
-    "onboarding.tips.debug.path": "C:/Users/AngieRaul/IdeaProjects/Java/src/Main.java"
+    "last_opened_file_path": "C:/Users/AngieRaul/Downloads/jsoup-1.6.0.jar",
+    "onboarding.tips.debug.path": "C:/Users/AngieRaul/IdeaProjects/Java/untitled/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -79,20 +122,14 @@
       <recent name="C:\Users\AngieRaul\IdeaProjects\Java\src\UF2" />
       <recent name="C:\Users\AngieRaul\IdeaProjects\Java\src\UF2\RegistreNotes" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AngieRaul\IdeaProjects\Java\src" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="MP02" />
       <recent name="UF2" />
       <recent name="UF2.calculAreesMarina.calculAreesMarina" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="EstudiantICurs.java" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="UF2.EstudiantICurs.ProgramaPrincipal" />
-      <module name="Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/UF2/EstudiantICurs" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -129,9 +166,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/UF2/calculAreesMarina/calculAreesMarina.java</url>
+          <url>file://$PROJECT_DIR$/src/MP02/UF2/calculAreesMarina/calculAreesMarina.java</url>
           <line>29</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
