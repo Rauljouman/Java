@@ -6,7 +6,6 @@ public class calculAreesMarina {
 
     private Scanner sc = new Scanner(System.in);
     private boolean fi = false;
-    private double area = 0;
 
     public static void main(String[] args) {
         calculAreesMarina programa = new calculAreesMarina();
@@ -14,9 +13,13 @@ public class calculAreesMarina {
     }
 
     public void inici() {
+        double area = 0;
         while (!fi) {
             mostrarMenu();
-            triaOpcio();
+            area = triaOpcio();
+            if (area != -2) {
+                veureResultat(area);
+            }
         }
     }
 
@@ -26,62 +29,64 @@ public class calculAreesMarina {
         System.out.println("Per acabar el programa: FI");
     }
 
-    public void triaOpcio() {
+    public double triaOpcio() {
+        double area = 0;
         String figura = sc.nextLine();
         if (figura.equalsIgnoreCase("triangle")) {
             area = triangle();
         } else if (figura.equalsIgnoreCase("quadrat")) {
-            quadrat();
+           area = quadrat();
         } else if (figura.equalsIgnoreCase("rectangle")) {
-            rectangle();
+            area = rectangle();
         } else if (figura.equalsIgnoreCase("trapezi")) {
-            trapezi();
+            area = trapezi();
         } else if (figura.equalsIgnoreCase("rombe")) {
-            rombe();
+            area = rombe();
         } else if (figura.equalsIgnoreCase("paralelogram")) {
-            paralelogram();
+            area = paralelogram();
         } else if (figura.equalsIgnoreCase("cercle")) {
-            cercle();
+            area = cercle();
         } else if (figura.equalsIgnoreCase("fi")) {
             System.out.println("Bye, bye!");
             fi = true;
         } else {
             System.out.println("Error, escull una figura!");
+            area = -2;
         }
-        veureResultat();
+        return area;
     }
 
 
-    public void veureResultat() {
+    public void veureResultat(double area) {
         System.out.println("L area de tu figura " + " es " + area);
     }
 
     //cas en que la figura = "triangle"
     public double triangle() {
+        double area = 0;
         double b = 23.0;
         double h = 8.0;
         area = (b * h) / 2;
         return area;
     }
 
-    //cas en que la figura = "quadrat"
     public double quadrat() {
+        double area = 0;
         double r = 37.0;
-        //funció matemàtica que eleva a 2 el radi
         area = Math.pow(r, 2);
         return area;
     }
 
-    //cas en que la figura = "rectangle"
     public double rectangle() {
+        double area = 0;
         double a = 68.0;
         double b = 39.0;
         area = a * b;
         return area;
     }
 
-    //cas en que la figura = "trapezi"
     public double trapezi() {
+        double area = 0;
         double a = 35.0;
         double b = 16.0;
         double h = 5.0;
@@ -89,24 +94,24 @@ public class calculAreesMarina {
         return area;
     }
 
-    //cas en que la figura = "rombe"
     public double rombe() {
+        double area = 0;
         double dM = 75.0;
         double dm = 30.0;
         area = (dM * dm) / 2;
         return area;
     }
 
-    //cas en que la figura = "paralelogram"
     public double paralelogram() {
+        double area = 0;
         double b = 45.0;
         double h = 13.0;
         area = b * h;
         return area;
     }
 
-    //cas en que la figura = "cercle"
     public double cercle() {
+        double area = 0;
         Scanner s = new Scanner(System.in);
         System.out.println("Quin es el radi del cercle?");
         double r = s.nextDouble();
