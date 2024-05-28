@@ -5,26 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0079de50-7108-4cb0-b9ec-5468a902bb99" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MP02Programacion/UF2/CalculaMaxMinMit/calculMaxMinMit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MP02Programacion/UF4/PersonaBonus/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MP02Programacion/UF4/PersonaBonus/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MP02Programacion/UF4/PersonaBonus/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MP02Programacion/UF4/PersonaBonus/Programmer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MP02Programacion/UF4/PersonaBonus/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MP02Programacion/UF4/ProjecteFigura/Cercle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MP02Programacion/UF4/ProjecteFigura/Figura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MP02Programacion/UF4/ProjecteFigura/Paralelogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MP02Programacion/UF4/ProjecteFigura/Quadrat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MP02Programacion/UF4/ProjecteFigura/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MP02Programacion/UF4/ProjecteFigura/Rombe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MP02Programacion/UF4/ProjecteFigura/Trapezi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MP02Programacion/UF4/ProjecteFigura/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MP02Programacion/UF4/ProjecteFigura/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Calculadora/Botones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Calculadora/Logica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Calculadora/Operaciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Calculadora/Ventana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MP02Programacion/UF3/ContadorParaules/ContadorParaules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MP02Programacion/UF5/Button/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MP02Programacion/UF5/Ventana/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MP02Programacion/UF5/Ventana/Ventana.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MP02Programacion/UF2/calculAreesMarina/calculAreesMarina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MP02Programacion/UF2/calculAreesMarina/calculAreesMarina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MP02Programacion/UF4/HerenciaMedia.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MP04 HTML/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MP04 HTML/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,12 +46,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Calculadora.Main.executor": "Run",
     "Application.CercaValors.executor": "Run",
+    "Application.ContadorParaules.executor": "Run",
     "Application.EstudiantICurs.java.executor": "Run",
     "Application.ExempleUsosStatic.executor": "Run",
     "Application.GenerarNotasFitxer.executor": "Run",
     "Application.MP02Programacion.UF4.HerenciaSimple.main.executor": "Run",
     "Application.MP02Programacion.UF4.HerenciaSimpleEntregar.main.executor": "Run",
+    "Application.MP02Programacion.UF5.Button.Main.executor": "Run",
+    "Application.MP02Programacion.UF5.Ventana.Main.executor": "Run",
     "Application.MP04.Main.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MainRectangle.executor": "Run",
@@ -104,10 +97,12 @@
       <recent name="C:\Users\AngieRaul\IdeaProjects\Java\src\UF2\RegistreNotes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AngieRaul\IdeaProjects\Java\src\MP02Programacion\UF5\Ventana" />
       <recent name="C:\Users\AngieRaul\IdeaProjects\Java\src\MP02Programacion\UF3\GenerarFitxerNotes" />
       <recent name="C:\Users\AngieRaul\IdeaProjects\Java\src" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="Calculadora" />
       <recent name="MP02Programacion.UF4.ProjecteFigura" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -115,6 +110,54 @@
       <recent name="UF2" />
       <recent name="UF2.calculAreesMarina.calculAreesMarina" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.Calculadora.Main">
+    <configuration name="Calculadora.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Calculadora.Main" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Calculadora.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MP02Programacion.UF5.Ventana.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MP02Programacion.UF5.Ventana.Main" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MP02Programacion.UF5.Ventana.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MP02Programacion.UF5.Button.Main" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MP02Programacion.UF5.Button.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Calculadora.Main" />
+        <item itemvalue="Application.MP02Programacion.UF5.Ventana.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -160,6 +203,11 @@
           <line>2</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MP02Programacion/UF5/Button/Main.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/MP02Programacion/UF4/ProjecteFigura/Figura.java</url>
           <line>71</line>
@@ -169,6 +217,10 @@
           </properties>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="8" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
