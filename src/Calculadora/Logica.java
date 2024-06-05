@@ -5,90 +5,91 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Logica implements ActionListener {
-    private JTextField inputUsuari;
-    private double primerNumero;
+    private JTextField caja;
+    private Operaciones operacions;
+    private boolean puntDecimal;
+    private double primerNum;
     private String operador;
-    private boolean resultadoMostrado;
+    private boolean nouNum;
 
     public Logica(JTextField caja) {
-        this.inputUsuari = caja;
-        this.primerNumero = 0;
+        this.caja = caja;
+        this.operacions = new Operaciones();
+        this.puntDecimal = false;
+        this.primerNum = 0;
         this.operador = "";
-        this.resultadoMostrado = false;
+        this.nouNum = true;
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        String valor = e.getActionCommand();
-        switch (valor) {
+        String comando = e.getActionCommand();
+
+        switch (comando) {
             case "OFF":
                 System.exit(0);
                 break;
             case "C":
-                inputUsuari.setText("");
-                primerNumero = 0;
+                caja.setText("");
+                operacions.limpiar();
+                puntDecimal = false;
                 operador = "";
-                resultadoMostrado = false;
+                primerNum = 0;
+                nouNum = true;
                 break;
             case "CE":
-                String text = inputUsuari.getText();
-                if (text.length() > 0) {
-                    inputUsuari.setText(text.substring(0, text.length() - 1));
+                String textoActual = caja.getText();
+                if (!textoActual.isEmpty()) {
+                    caja.setText(textoActual.substring(0, textoActual.length() - 1));
+                }
+                if (!caja.getText().contains(".")) {
+                    puntDecimal = false;
                 }
                 break;
             case "=":
                 try {
-                    if (!operador.isEmpty()) {
-                        double segundoNumero = Double.parseDouble(inputUsuari.getText());
-                        double resultado = calcular(primerNumero, segundoNumero, operador);
-                        inputUsuari.setText(String.valueOf(resultado));
-                        primerNumero = resultado;
-                        resultadoMostrado = true;
-                    }
+                    double segunNum = Double.parseDouble(caja.getText());
+                    double resultado = operacions.realizarOperacion(primerNum, segunNum, operador);
+                    caja.setText(String.valueOf(resultado));
+                    puntDecimal = String.valueOf(resultado).contains(".");
+                    nouNum = true;
+                } catch (ArithmeticException | NumberFormatException ex) {
+                    caja.setText("Error");
+                    nouNum = true;
+                }
+                operacions.limpiar();
+                operador = "";
+                break;
+            case ".":
+                if (!puntDecimal) {
+                    caja.setText(caja.getText() + ".");
+                    puntDecimal = true;
+                    nouNum = false;
+                }
+                break;
+            case "+":
+            case "-":
+            case "*":
+            case "/":
+                try {
+                    primerNum = Double.parseDouble(caja.getText());
+                    operador = comando;
+                    caja.setText("");
+                    puntDecimal = false;
+                    nouNum = true;
                 } catch (NumberFormatException ex) {
-                    inputUsuari.setText("Error");
-                }
-                break;
-            case "+":
-            case "-":
-            case "*":
-            case "/":
-                if (!inputUsuari.getText().isEmpty()) {
-                    primerNumero = Double.parseDouble(inputUsuari.getText());
-                    inputUsuari.setText("");
-                    operador = valor;
-                    resultadoMostrado = false;
+                    caja.setText("Error");
+                    nouNum = true;
                 }
                 break;
             default:
-                if (!resultadoMostrado) {
-                    if (inputUsuari.getText().length() < 9) {
-                        inputUsuari.setText(inputUsuari.getText() + valor);
-                    }
+                if (nouNum) {
+                    caja.setText(comando);
+                    nouNum = false;
                 } else {
-                    inputUsuari.setText(valor);
-                    resultadoMostrado = false;
+                    caja.setText(caja.getText() + comando);
                 }
                 break;
-        }
-    }
-
-    private double calcular(double num1, double num2, String operador) {
-        switch (operador) {
-            case "+":
-                return num1 + num2;
-            case "-":
-                return num1 - num2;
-            case "*":
-                return num1 * num2;
-            case "/":
-                if (num2 != 0) {
-                    return num1 / num2;
-                } else {
-                    throw new ArithmeticException("División por cero");
-                }
-            default:
-                throw new IllegalArgumentException("Operador no válido");
         }
     }
 }

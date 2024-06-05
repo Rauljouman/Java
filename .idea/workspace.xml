@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0079de50-7108-4cb0-b9ec-5468a902bb99" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Calculadora/Botones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Calculadora/Logica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Calculadora/Operaciones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Calculadora/Ventana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MP02Programacion/UF3/ContadorParaules/ContadorParaules.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MP02Programacion/UF5/Button/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MP02Programacion/UF5/Ventana/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MP02Programacion/UF5/Ventana/Ventana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Calculadora/Photos/cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Calculadora/Photos/skyBlue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MP02Programacion/UF3/ContadorParaules/enllaçDrive.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnyDesk.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CABJ70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mano.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node-v20.13.1-x64.msi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculadora/Botones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculadora/Botones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculadora/Logica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculadora/Logica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculadora/Operaciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculadora/Operaciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculadora/Ventana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculadora/Ventana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MP04 HTML/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +36,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -57,6 +61,7 @@
     "Application.MP02Programacion.UF5.Button.Main.executor": "Run",
     "Application.MP02Programacion.UF5.Ventana.Main.executor": "Run",
     "Application.MP04.Main.executor": "Run",
+    "Application.Main (1).executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MainRectangle.executor": "Run",
     "Application.NotaMitajanaMaxMinFuncions.executor": "Run",
@@ -72,7 +77,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/AngieRaul/Desktop/Notas/NotasAño.txt",
@@ -97,6 +102,7 @@
       <recent name="C:\Users\AngieRaul\IdeaProjects\Java\src\UF2\RegistreNotes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AngieRaul\IdeaProjects\Java\src\Calculadora\Photos" />
       <recent name="C:\Users\AngieRaul\IdeaProjects\Java\src\MP02Programacion\UF5\Ventana" />
       <recent name="C:\Users\AngieRaul\IdeaProjects\Java\src\MP02Programacion\UF3\GenerarFitxerNotes" />
       <recent name="C:\Users\AngieRaul\IdeaProjects\Java\src" />
@@ -111,8 +117,8 @@
       <recent name="UF2.calculAreesMarina.calculAreesMarina" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Calculadora.Main">
-    <configuration name="Calculadora.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Calculadora.Main" />
       <module name="Java" />
       <extension name="coverage">
@@ -125,36 +131,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MP02Programacion.UF5.Ventana.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MP02Programacion.UF5.Ventana.Main" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MP02Programacion.UF5.Ventana.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MP02Programacion.UF5.Button.Main" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MP02Programacion.UF5.Button.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Calculadora.Main" />
-        <item itemvalue="Application.MP02Programacion.UF5.Ventana.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -208,6 +186,11 @@
           <line>2</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Calculadora/Botones.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/MP02Programacion/UF4/ProjecteFigura/Figura.java</url>
           <line>71</line>
@@ -216,6 +199,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Calculadora/Botones.java</url>
+          <line>21</line>
+          <properties class="Calculadora.Botones" method="crearBotones">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
